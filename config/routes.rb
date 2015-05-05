@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # de esta manera accedes por el url http://localhost:3000
   root "pages#home"
   get "about" => "pages#about" # creates about_path
+  get "app" => "pages#app" # creates app_path
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
