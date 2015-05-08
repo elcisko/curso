@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :pins
+
   devise_for :users
   #get 'pages/home' de esta manera accedes por el url http://localhost:3000/pages/home
   
