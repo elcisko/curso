@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   #get 'pages/home' de esta manera accedes por el url http://localhost:3000/pages/home
   
   # de esta manera accedes por el url http://localhost:3000
-  root "pages#home"
+  #root "pages#home"
+  root "pins#index"
   get "about" => "pages#about" # creates about_path
   get "app" => "pages#app" # creates app_path
 
