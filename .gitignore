@@ -13,8 +13,6 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
-/tmp/*
-tmp/*
+/tmp/*.*
 .DS_Store
-/public/system/*
-public/system/*
+/public/system/*:*
